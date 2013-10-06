@@ -1,0 +1,26 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>net.miranti.cordova</groupId>
+  <artifactId>cordova-plugin-facebook</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>pom</packaging>
+  <name>Cordova Facebook Plugin</name>
+  <modules>
+  	<module>cordova-plugin-facebook-android</module>
+  </modules>
+  <organization>
+  	<name>miranTI Serviços em TI</name>
+  </organization>
+  <scm>
+  	<url>https://github.com/fabiolnm/cordova-plugin-facebook</url>
+  	<developerConnection>fabiolnm</developerConnection>
+  </scm>
+  <dependencies>
+  	<dependency>
+  		<groupId>org.apache</groupId>
+  		<artifactId>cordova</artifactId>
+  		<version>3.1.0</version>
+  		<type>pom.lastUpdated</type>
+  	</dependency>
+  </dependencies>
+</project>
